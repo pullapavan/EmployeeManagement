@@ -1,0 +1,43 @@
+{
+    "name": "UI_ASSIGNMENT2",
+    "version": "1.0.0",
+    "main": "app.js",
+    "scripts": {
+        "start": "nodemon -w uiserver.js -w .env uiserver.js",
+        "lint": "eslint . --ext js,jsx --ignore-pattern public",
+        "compile": "webpack --mode production",
+        "watch": "webpack --watch"
+    },
+    "author": "PULLA PAVAN KUMAR",
+    "license": "ISC",
+    "dependencies": {
+        "babel-polyfill": "^6.26.0",
+        "bootstrap": "^4.6.2",
+        "dotenv": "^6.2.0",
+        "express": "^4.16.4",
+        "http-proxy-middleware": "^0.19.1",
+        "nodemon": "^1.18.9",
+        "prop-types": "^15.6.2",
+        "react": "^16.7.0",
+        "react-bootstrap": "^2.9.1",
+        "react-dom": "^16.7.0",
+        "react-router-dom": "^4.3.1",
+        "url-search-params": "^1.1.0",
+        "whatwg-fetch": "^3.0.0"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.2.3",
+        "@babel/core": "^7.2.2",
+        "@babel/preset-env": "^7.2.3",
+        "@babel/preset-react": "^7.0.0",
+        "babel-loader": "^8.0.5",
+        "eslint": "^5.12.0",
+        "eslint-plugin-import": "^2.14.0",
+        "eslint-plugin-jsx-a11y": "^6.1.2",
+        "eslint-plugin-react": "^7.12.3",
+        "webpack": "^4.28.3",
+        "webpack-cli": "^3.2.1",
+        "webpack-dev-middleware": "^3.5.0",
+        "webpack-hot-middleware": "^2.24.3"
+    }
+}
